@@ -51,13 +51,13 @@
 
 
     <GridLayout
-        android:layout_width="144dp"
-        android:layout_height="383dp"
-        android:columnCount="5"
-        android:orientation="horizontal"
+        android:layout_width="386dp"
+        android:layout_height="151dp"
+        android:columnCount="8"
+        android:orientation="vertical"
         android:rowCount="20"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="70dp">
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="77dp">
 
         <!-- 2+1 Koltuk Düzeni -->
         <!-- 1. Sıra -->
@@ -74,61 +74,202 @@
         <!-- 2. Sıra -->
 
         <!-- 3. Sıra -->
+
+        <!-- Orta Koridor -->
+
+
+        <!-- 1. Sıra -->
+
         <ImageView
-            android:id="@+id/seat2"
+            android:id="@+id/seat28"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_row="1"
-            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="4dp"
+            android:background="@drawable/man"
+            android:textColor="@color/white" />
+
+        <Space
+            android:id="@+id/seat3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="7"
+            android:layout_column="5"
             android:layout_margin="4dp"
             android:background="@drawable/woman"
             android:text="2" />
 
-        <!-- Orta Koridor -->
         <ImageView
-            android:id="@+id/seat3"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="2"
-            android:layout_column="0"
-            android:layout_margin="4dp"
-            android:text="3" />
-
-        <ImageView
-            android:id="@+id/seat8"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="8"
-            android:layout_column="0"
-            android:layout_margin="4dp"
-            android:text="3" />
-
-        <ImageView
-            android:id="@+id/seat9"
+            android:id="@+id/seat5"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_row="9"
             android:layout_column="0"
             android:layout_margin="4dp"
-            android:text="3" />
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat11"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="2"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat12"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="5"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat14"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="6"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat16"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="6"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat20"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="4"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat21"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="7"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat25"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="9"
+            android:layout_column="7"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat26"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="7"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat27"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="7"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat15"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="5"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat17"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="5"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat13"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="2"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="1"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
 
         <ImageView
             android:id="@+id/seat10"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_row="9"
-            android:layout_column="0"
+            android:layout_column="2"
             android:layout_margin="4dp"
-            android:text="3" />
+            android:background="@drawable/woman"
+            android:text="2" />
 
-        <Space
+        <ImageView
+            android:id="@+id/seat23"
             android:layout_width="30dp"
-            android:layout_height="4dp"
-            android:layout_row="0"
-            android:layout_rowSpan="6"
-            android:layout_column="1" />
+            android:layout_height="30dp"
+            android:layout_row="9"
+            android:layout_column="1"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
 
-        <!-- 1. Sıra -->
         <ImageView
             android:id="@+id/seat4"
 
@@ -143,232 +284,160 @@
         <!-- 2. Sıra -->
 
         <!-- 3. Sıra -->
-        <ImageView
-            android:id="@+id/seat5"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="1"
-            android:layout_column="2"
-            android:layout_margin="4dp"
-            android:text="5" />
-
-        <ImageView
-            android:id="@+id/seat6"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="2"
-            android:layout_column="2"
-            android:layout_margin="4dp"
-            android:text="6" />
 
         <ImageView
             android:id="@+id/seat"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="8"
-            android:layout_column="2"
-            android:layout_margin="4dp"
-            android:text="6" />
 
-        <ImageView
-            android:id="@+id/seat7"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="9"
-            android:layout_column="2"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/seat12"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="10"
-            android:layout_column="2"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/seat13"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="11"
-            android:layout_column="2"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/seat14"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="12"
-            android:layout_column="2"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/seat15"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="13"
-            android:layout_column="2"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/seat16"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="14"
-            android:layout_column="2"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/seat17"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="14"
-            android:layout_column="3"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/seat18"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="14"
-            android:layout_column="0"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/seat19"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="13"
-            android:layout_column="0"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/seat20"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="12"
-            android:layout_column="0"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/seat21"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="11"
-            android:layout_column="0"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/seat22"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="10"
-            android:layout_column="0"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/seat11"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="9"
-            android:layout_column="2"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/s"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_row="0"
             android:layout_column="3"
             android:layout_margin="4dp"
-            android:text="6" />
+            android:text="4" />
 
         <ImageView
-            android:id="@+id/x"
+            android:id="@+id/seat18"
+
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_row="1"
-            android:layout_column="3"
+            android:layout_row="0"
+            android:layout_column="6"
             android:layout_margin="4dp"
-            android:text="6" />
+            android:text="4" />
 
         <ImageView
-            android:id="@+id/x2"
+            android:id="@+id/seat19"
+
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_row="2"
+            android:layout_row="0"
             android:layout_column="3"
             android:layout_margin="4dp"
-            android:text="6" />
+            android:text="4" />
 
         <ImageView
-            android:id="@+id/x3"
+            android:id="@+id/seat8"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_row="8"
             android:layout_column="3"
             android:layout_margin="4dp"
-            android:text="6" />
+            android:text="5" />
 
         <ImageView
-            android:id="@+id/x4"
+            android:id="@+id/seat9"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_row="9"
             android:layout_column="3"
             android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/x6"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="10"
-            android:layout_column="3"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/x7"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="11"
-            android:layout_column="3"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/x8"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="12"
-            android:layout_column="3"
-            android:layout_margin="4dp"
-            android:text="6" />
-
-        <ImageView
-            android:id="@+id/x9"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="13"
-            android:layout_column="3"
-            android:layout_margin="4dp"
-            android:text="6" />
+            android:text="5" />
 
 
     </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="266dp">
+
+        <!-- T.C. Kimlik Numarası -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="T.C. Kimlik Numarası" />
+
+        <EditText
+            android:id="@+id/editTCKN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="T.C. Kimlik Numarasını Girin"
+            android:inputType="number" />
+
+        <!-- Cinsiyet -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cinsiyet" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Erkek" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kadın" />
+
+        </RadioGroup>
+
+        <!-- Ad ve Soyad -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ad ve Soyad" />
+
+        <EditText
+            android:id="@+id/editFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ad ve Soyadı Girin"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="154dp"
+        android:layout_height="78dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="512dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="150 TL"
+                android:textSize="24sp">
+
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btnBuyTicket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:text="Satın Al" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="49dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_toLeftOf="@id/btnBuyTicket"
+            android:src="@drawable/forward_icon" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
