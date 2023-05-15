@@ -53,7 +53,7 @@
     <GridLayout
         android:layout_width="386dp"
         android:layout_height="151dp"
-        android:columnCount="8"
+        android:columnCount="10"
         android:orientation="vertical"
         android:rowCount="20"
         tools:layout_editor_absoluteX="11dp"
@@ -90,11 +90,71 @@
             android:background="@drawable/man"
             android:textColor="@color/white" />
 
+        <ImageView
+            android:id="@+id/seat31"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="9"
+            android:layout_column="6"
+            android:layout_margin="4dp"
+            android:background="@drawable/man"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/seat32"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="9"
+            android:layout_column="6"
+            android:layout_margin="4dp"
+            android:background="@drawable/man"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/seat33"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="9"
+            android:layout_column="6"
+            android:layout_margin="4dp"
+            android:background="@drawable/man"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/seat34"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="9"
+            android:layout_column="8"
+            android:layout_margin="4dp"
+            android:background="@drawable/man"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/seat35"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="9"
+            android:layout_column="9"
+            android:layout_margin="4dp"
+            android:background="@drawable/man"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/seat36"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="0"
+            android:layout_column="8"
+            android:layout_margin="4dp"
+            android:background="@drawable/man"
+            android:textColor="@color/white" />
+
         <Space
             android:id="@+id/seat3"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_row="7"
+            android:layout_row="8"
             android:layout_column="5"
             android:layout_margin="4dp"
             android:background="@drawable/woman"
@@ -111,71 +171,31 @@
             android:text="2" />
 
         <ImageView
-            android:id="@+id/seat11"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="8"
-            android:layout_column="0"
-            android:layout_margin="4dp"
-            android:background="@drawable/woman"
-            android:text="2" />
-
-        <ImageView
-            android:id="@+id/seat6"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="8"
-            android:layout_column="2"
-            android:layout_margin="4dp"
-            android:background="@drawable/woman"
-            android:text="2" />
-
-        <ImageView
-            android:id="@+id/seat12"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="8"
-            android:layout_column="5"
-            android:layout_margin="4dp"
-            android:background="@drawable/woman"
-            android:text="2" />
-
-        <ImageView
-            android:id="@+id/seat14"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="8"
-            android:layout_column="6"
-            android:layout_margin="4dp"
-            android:background="@drawable/woman"
-            android:text="2" />
-
-        <ImageView
             android:id="@+id/seat16"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_row="8"
-            android:layout_column="6"
+            android:layout_row="7"
+            android:layout_column="7"
             android:layout_margin="4dp"
             android:background="@drawable/woman"
             android:text="2" />
 
         <ImageView
-            android:id="@+id/seat20"
+            android:id="@+id/seat30"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_row="8"
+            android:layout_row="9"
             android:layout_column="4"
             android:layout_margin="4dp"
             android:background="@drawable/woman"
             android:text="2" />
 
         <ImageView
-            android:id="@+id/seat21"
+            android:id="@+id/seat29"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_row="8"
-            android:layout_column="7"
+            android:layout_row="7"
+            android:layout_column="4"
             android:layout_margin="4dp"
             android:background="@drawable/woman"
             android:text="2" />
@@ -194,28 +214,8 @@
             android:id="@+id/seat26"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_row="8"
-            android:layout_column="7"
-            android:layout_margin="4dp"
-            android:background="@drawable/woman"
-            android:text="2" />
-
-        <ImageView
-            android:id="@+id/seat27"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="8"
-            android:layout_column="7"
-            android:layout_margin="4dp"
-            android:background="@drawable/woman"
-            android:text="2" />
-
-        <ImageView
-            android:id="@+id/seat15"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_row="8"
-            android:layout_column="5"
+            android:layout_row="7"
+            android:layout_column="9"
             android:layout_margin="4dp"
             android:background="@drawable/woman"
             android:text="2" />
@@ -224,8 +224,8 @@
             android:id="@+id/seat17"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_row="8"
-            android:layout_column="5"
+            android:layout_row="7"
+            android:layout_column="6"
             android:layout_margin="4dp"
             android:background="@drawable/woman"
             android:text="2" />
@@ -234,7 +234,17 @@
             android:id="@+id/seat13"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_row="8"
+            android:layout_row="7"
+            android:layout_column="2"
+            android:layout_margin="4dp"
+            android:background="@drawable/woman"
+            android:text="2" />
+
+        <ImageView
+            android:id="@+id/seat27"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="7"
             android:layout_column="2"
             android:layout_margin="4dp"
             android:background="@drawable/woman"
@@ -244,8 +254,8 @@
             android:id="@+id/seat24"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_row="8"
-            android:layout_column="1"
+            android:layout_row="7"
+            android:layout_column="3"
             android:layout_margin="4dp"
             android:background="@drawable/woman"
             android:text="2" />
@@ -319,7 +329,7 @@
             android:id="@+id/seat8"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_row="8"
+            android:layout_row="7"
             android:layout_column="3"
             android:layout_margin="4dp"
             android:text="5" />
@@ -432,8 +442,8 @@
 
 
         <ImageView
-            android:layout_width="45dp"
-            android:layout_height="49dp"
+            android:layout_width="38dp"
+            android:layout_height="44dp"
             android:layout_alignParentBottom="true"
             android:layout_gravity="center"
             android:layout_toLeftOf="@id/btnBuyTicket"
