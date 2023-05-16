@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:padding="16dp">
-
-
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
@@ -14,76 +14,79 @@
         android:layout_marginBottom="24dp"/>
 
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/firstNameInputLayout"
+    <EditText
+        android:id="@+id/etFirstName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ad">
+        android:hint="İsim"
+        android:inputType="textPersonName" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/firstNameEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#FFFFFF" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/lastNameInputLayout"
+    <EditText
+        android:id="@+id/etLastName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Soyad"
-        android:layout_marginTop="12dp">
+        android:hint="Soyisim"
+        android:inputType="textPersonName" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/lastNameEditText"
-            android:layout_width="match_parent"
+    <EditText
+        android:id="@+id/etTC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="T.C. Kimlik No"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doğum Tarihi"
+        android:inputType="date" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#FFFFFF" />
+            android:text="Erkek" />
 
-    </com.google.android.material.textfield.TextInputLayout>
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kadın" />
+    </RadioGroup>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/emailInputLayout"
+    <EditText
+        android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="E-posta"
-        android:layout_marginTop="12dp">
+        android:inputType="textEmailAddress" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/emailEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            android:textColor="#FFFFFF" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/passwordInputLayout"
+    <EditText
+        android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Şifre"
-        android:layout_marginTop="12dp">
+        android:inputType="textPassword" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/passwordEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:textColor="#FFFFFF" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Üye Ol"
-            android:layout_margin="10dp"
-            android:textSize="24sp"
-            android:textColor="#000000"
-            android:textStyle="bold"
-            android:layout_marginBottom="24dp"
-            android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 
-
-    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Üye Ol" />
 
 </LinearLayout>
+
+

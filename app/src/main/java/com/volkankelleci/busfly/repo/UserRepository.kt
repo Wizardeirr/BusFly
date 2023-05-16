@@ -5,7 +5,7 @@ import com.volkankelleci.busfly.room.User
 import com.volkankelleci.busfly.room.UserDao
 
 class UserRepository(private val userDao:UserDao) {
-    suspend fun insertUser(user:User)=userDao.insertAll()
+    suspend fun insertUser(user:User)=userDao.insertUser(user)
 
-    fun getAllUsers(): LiveData<User> = userDao.getAll()
+    suspend fun getAllUsers(): List<User> = userDao.getUsers()
 }
